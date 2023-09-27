@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Contact Us</title>
+
+   <!-- custom css file link  -->
+   <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+<!-- header section starts  -->
+
+<header class="header">
+
+   <section class="flex">
+
+      <div id="menu-btn" class="fa-solid fa-bars-staggered" style="color: #ffffff;"></div>
+
+      <a href="https://umkc.edu/">
+         <img src="images/umkcLogoWhite (1).png" width="125" height="75">
+      </a>
+
+      <nav class="navbar">
+         <a href="home.html">home</a>
+         <a href="jobs.html">all jobs</a>
+         <a href="contact.html">contact us</a>
+      </nav>
+
+      <a href="login.html" class="btn" style="margin-top: 0;">login</a>
+
+   </section>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- contact us section starts  -->
+
+<div class="section-title">contact us</div>
+
+<section class="contact">
+
+   <div class="box-container">
+
+      <div class="box">
+         <i class="fas fa-phone"></i>
+         <a href="tel:8162351301">816-235-1301</a>
+      </div>
+
+      <div class="box">
+         <i class="fas fa-envelope"></i>
+         <a href="mailto:umkcsgs@umkc.edu">umkcsgs@umkc.edu</a>
+      </div>
+
+      <div class="box">
+         <i class="fas fa-fax"></i>
+         <a>816-235-1310</a>
+      </div>
+
+      <div class="box">
+         <i class="fas fa-map-marker-alt"></i>
+         <a>Atterbury Student Success Center</a>
+         <a>Room 120</a>
+         <a>5000 Holmes Street</a>
+         <a>Kansas City, MO 64110</a>
+      </div>
+
+   </div>
+
+   <form action="" method="post">
+      <h3>drop your message</h3>
+      <div class="flex">
+         <div class="box">
+            <p>name <span>*</span></p>
+            <input type="text" name="name" required maxlength="20" placeholder="enter your name" class="input">
+         </div>
+         <div class="box">
+            <p>email <span>*</span></p>
+            <input type="email" name="email" required maxlength="50" placeholder="enter your email" class="input">
+         </div>
+         <div class="box">
+            <p>number <span>*</span></p>
+            <input type="number" name="number" required min="0" max="9999999999" maxlength="20" placeholder="enter your number" class="input">
+         </div>
+         <div class="box">
+            <p>role <span>*</span></p>
+            <select name="role" required class="input">
+               <option value="employee">job seeker (employee)</option>
+               <option value="employeer">job provider (employeer)</option>
+            </select>
+         </div>
+      </div>
+      <p>message <span>*</span></p>
+      <textarea name="message" class="input" required maxlength="1000" placeholder="enter your message" cols="30" rows="10"></textarea>
+      <input type="submit" value="send message" name="send" class="btn">
+   </form>
+
+</section>
+
+<!-- contact us section ends -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- footer section starts  -->
+
+<footer class="footer">
+
+   <div class="credit">&copy; copyright @ 2023</div>
+
+</footer>
+
+<!-- footer section ends -->
+
+
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+
+   
+</body>
+</html>
